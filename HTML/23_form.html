@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form</title>
+  </head>
+  <body style="background-color: rgb(95, 27, 27); color: white;">
+    <h2>Registration Form</h2>
+    <form>
+      <div>
+        <label for="fullname">Fullname: </label>
+        <input type="text" name="fullname" id="fullname" style="color: red;" />
+      </div>
+
+      <br />
+
+      <div>
+        <label for="email">Email: </label>
+        <input type="email" name="email" id="email" style="color: red;" />
+      </div>
+
+      <br />
+
+      <div>
+        <label for="department">Department: </label>
+        <select name="department" id="department">
+          <option value="cse">CSE</option>
+          <option value="eee">EEE</option>
+          <option value="bba">BBA</option>
+        </select>
+      </div>
+
+      <br />
+
+      <div>
+        <label>Gender: </label>
+        <input type="radio" name="gender" id="male" value="male" />
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="female" value="female" />
+        <label for="female">Female</label>
+      </div>
+
+      <br />
+
+      <div>
+        <label for="photo">Photo:</label>
+        <input type="file" name="photo" id="photo" />
+      </div>
+
+      <br />
+
+      <div>
+        <label>Religion: </label>
+        <input type="checkbox" name="religion" id="muslim" value="muslim" />
+        <label for="muslim">Muslim</label>
+        <input type="checkbox" name="religion" id="hindu" value="hindu" />
+        <label for="hindu">Hindu</label>
+      </div>
+
+      <br />
+      
+      <div>
+        <label for="date">Date: </label>
+        <input type="date" name="date" id="date" style="color: red;" />
+      </div>
+      <br />
+      <div>
+        <label for="message">message:</label>
+        <textarea cols="20" rows="5"> </textarea>
+      </div>
+      <br />
+      <div>
+        <input type="submit" value="Submit" style="color: white; background-color: red;" />
+      </div>
+    </form>
+  </body>
+</html>

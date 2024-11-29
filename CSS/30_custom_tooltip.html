@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tooltip</title>
+    <style>
+        .tooltip {
+            position: relative;
+            display: inline-block;
+            cursor: pointer;
+        }
+        .tooltip-text {
+            visibility: hidden;
+            width: 200px;
+            background-color: red;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            border-radius: 10px;
+            position: absolute;
+            z-index: 1;
+            top: 125%; /* Position above the tooltip trigger */
+            left: 120%;
+            transform: translateX(-50%);
+            border: 1px solid white;
+        }
+        .tooltip:hover .tooltip-text {
+            visibility: visible;
+        }
+    </style>
+</head>
+<body>
+    <a href="#" class="tooltip">Facebook
+        <span class="tooltip-text">This is a social site</span>
+    </a>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>z-index</title>
+    <style>
+        
+        :root{
+            --primary-color: rgb(255, 68, 0);
+        }
+        #div1{
+            background:var(--primary-color);
+            height: 200px;
+            width: 200px;
+            position: absolute;
+            z-index: 1;
+        }
+        #div2{
+            background:var( --secondary-color);
+            height: 200px;
+            width: 200px;
+            position: absolute;
+            left: 100px;
+            top: 150px;
+            z-index: 0;
+        }
+    @media screen and (max-width: 600px){
+        :root{
+            --primary-color: rgb(255, 68, 0);
+            --secondary-color:green;
+        }
+    }
+
+    </style>
+</head>
+<body>
+    <div id="div1"></div>
+    <div id="div2"></div>
+</body>
+</html>

@@ -1,33 +1,120 @@
-# HTML
+# 🌐 Web Development
 
-Welcome to the HTML Repository! This repository contains HTML files for various projects.
+Welcome to my collection of **Web Development**. This repository contains various projects built using **HTML**, **CSS** and more comming soon. Explore these fun, interactive, and practical projects for various web development use cases.
 
-## Contents
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-- [Authors](#authors)
-- [Acknowledgements](#acknowledgements)
-- [Contact](#contact)
+---
 
-## Installation
-Describe how to install your HTML files here.
+## 📂 Projects Overview
 
-## Usage
-Explain how to use the HTML files included in this repository.
+Here is a list of some of the projects in this folder:
 
-## Contributing
-Explain how others can contribute to this repository.
+### 1. **CV Project** 📄  
+- **Description**: This project contains HTML and CSS files to create a **personal CV** or **resume**.
+- **Technologies Used**: HTML, CSS
+- **Latest Update**: Added files for the CV layout.
+  
+---
 
-## License
-Specify the license for the HTML files in this repository.
+### 2. **SideBar** 🖥️  
+- **Description**: A **sidebar design** made using HTML and CSS for better navigation.
+- **Technologies Used**: HTML, CSS
+- **Latest Update**: Added files for sidebar layout.
+  
+---
 
-## Authors
-- Mehedi Hasan Mamun
+### 3. **Calculator** 🧮  
+- **Description**: A simple, interactive **calculator** built with HTML, CSS, and JavaScript.
+- **Technologies Used**: HTML, CSS, JavaScript
+- **Latest Update**: Added files via upload.
+  
+---
 
-## Acknowledgements
-Include acknowledgements or references to other projects or resources that inspired or helped your HTML files.
+### 4. **Card Design** 🃏  
+- **Description**: A **card design layout** using HTML and CSS to display content in a stylish way.
+- **Technologies Used**: HTML, CSS
+- **Latest Update**: Added files for the card design layout.
 
-## Contact
-If you have any questions, feel free to contact us at mehedimamun604@gmail.com
+---
+
+### 5. **Calendar** 📅  
+- **Description**: A **basic calendar** layout designed with HTML and CSS to display monthly calendars.
+- **Technologies Used**: HTML, CSS
+- **Latest Update**: Deleted unnecessary file `ramadan.html`.
+
+---
+
+### 6. **Login Page** 🔒  
+- **Description**: A **login page** designed with HTML and CSS for basic user authentication.
+- **Technologies Used**: HTML, CSS
+- **Latest Update**: Added files for the login page.
+
+---
+
+## ⚙️ Technologies Used
+
+- **HTML**: Structure of the web pages
+- **CSS**: Styling the layout and designs
+- **JavaScript**: Adding interactivity and functionality
+- **GitHub Pages**: Hosting some of the projects
+
+---
+
+## 📜 Installation Instructions
+
+1. **Clone the Repository**:
+    ```bash
+    git clone https://github.com/Mehedi-16/Web_Development.git
+    ```
+2. **Navigate to the Project Folder**:
+    ```bash
+    cd Web_Development
+    ```
+3. **Open the Respective Project File**:
+    - Open the `index.html`, `login.html`, or any other file in your browser to see the project.
+
+---
+
+## 💬 How to Contribute
+
+I welcome contributions to this repository! Here's how you can contribute:
+
+1. **Fork** the repository.
+2. **Create a new branch**: 
+    ```bash
+    git checkout -b feature-name
+    ```
+3. **Commit your changes**:
+    ```bash
+    git commit -m 'Add feature'
+    ```
+4. **Push to the branch**:
+    ```bash
+    git push origin feature-name
+    ```
+5. **Open a pull request** and describe the changes you made.
+
+---
+
+## 🚀 License
+
+This repository is open-source and available under the **MIT License**. See the LICENSE file for more details.
+
+---
+
+## 🎉 Stay Connected
+
+Feel free to follow me or reach out through the following links:
+
+- [GitHub Profile](https://github.com/Mehedi-16)
+- [LinkedIn](https://www.linkedin.com/in/mehedi-mamun/)
+- [Facebook](https://www.facebook.com/mehed1HasanMamun/)
+
+---
+
+## 📝 Acknowledgements
+
+Thanks to all the open-source communities and contributors who make this possible!
+
+---
+
+**Happy Coding!**

@@ -1,0 +1,74 @@
+/* General Reset */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    
+  }
+  
+  /* Main Container */
+  .main_box {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #4f7871;
+    align-items: center;
+    box-sizing: border-box;
+  }
+  
+  /* Sidebar Menu */
+  .sidebar_menu {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    width: 250px;
+    position: relative;
+  }
+  
+  /* Logo Styling */
+  .sidebar_menu .logo {
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    padding: 10px;
+    display: block;
+  }
+  
+  /* Hidden Checkbox to control menu */
+  .menu-toggle {
+    display: none;
+  }
+  
+  /* Sliding Menu */
+  .sidebar_menu .menu {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-in-out;
+  }
+  
+  .menu-toggle:checked + .logo + .menu {
+    max-height: 500px; /* Adjust this value according to the menu content */
+  }
+  
+  .sidebar_menu .menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .sidebar_menu .menu ul li {
+    padding: 10px 15px;
+  }
+  
+  .sidebar_menu .menu ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    display: block;
+    transition: color 0.3s;
+  }
+  
+  .sidebar_menu .menu ul li a:hover {
+    color: #ffa500;
+  }
+  

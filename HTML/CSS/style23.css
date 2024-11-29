@@ -1,0 +1,15 @@
+#sec1{
+    float: left;
+    background-color: red;
+}
+#sec2{
+    float: left;
+    background-color: green;
+}
+#clear-div{
+    clear:both;
+}
+#sec3{
+    color:white;
+    background-color: rgb(102, 21, 34);
+}

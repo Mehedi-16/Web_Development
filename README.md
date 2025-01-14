@@ -47,8 +47,16 @@ Here is a list of some of the projects in this folder:
 - **Description**: A **login page** designed with HTML and CSS for basic user authentication.
 - **Technologies Used**: HTML, CSS
 - **Latest Update**: Added files for the login page.
-
+  
 ---
+### 7. **About_Website** 🌐  
+- **Description**: A personal or project-based website showcasing key information and features.
+- **Technologies Used**: HTML, CSS
+- **Latest Update**: Added files for the login page.
+  
+---
+
+
 
 ## ⚙️ Technologies Used
 
